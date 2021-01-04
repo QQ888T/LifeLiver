@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18622FDA25A2AAEF00EEB108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18622FD925A2AAEF00EEB108 /* AppDelegate.m */; };
+		18622FDD25A2AAEF00EEB108 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18622FDC25A2AAEF00EEB108 /* SceneDelegate.m */; };
+		18622FE025A2AAEF00EEB108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18622FDF25A2AAEF00EEB108 /* ViewController.m */; };
+		18622FE325A2AAEF00EEB108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18622FE125A2AAEF00EEB108 /* Main.storyboard */; };
+		18622FE525A2AAF000EEB108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18622FE425A2AAF000EEB108 /* Assets.xcassets */; };
+		18622FE825A2AAF000EEB108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18622FE625A2AAF000EEB108 /* LaunchScreen.storyboard */; };
+		18622FEB25A2AAF000EEB108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18622FEA25A2AAF000EEB108 /* main.m */; };
+		18622FF525A2AAF100EEB108 /* LifeLiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18622FF425A2AAF100EEB108 /* LifeLiverTests.m */; };
+		1862300025A2AAF100EEB108 /* LifeLiverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18622FFF25A2AAF100EEB108 /* LifeLiverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18622FF125A2AAF100EEB108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18622FCD25A2AAEF00EEB108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18622FD425A2AAEF00EEB108;
+			remoteInfo = LifeLiver;
+		};
+		18622FFC25A2AAF100EEB108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18622FCD25A2AAEF00EEB108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18622FD425A2AAEF00EEB108;
+			remoteInfo = LifeLiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18622FD525A2AAEF00EEB108 /* LifeLiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeLiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18622FD825A2AAEF00EEB108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18622FD925A2AAEF00EEB108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18622FDB25A2AAEF00EEB108 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18622FDC25A2AAEF00EEB108 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18622FDE25A2AAEF00EEB108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18622FDF25A2AAEF00EEB108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18622FE225A2AAEF00EEB108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18622FE425A2AAF000EEB108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18622FE725A2AAF000EEB108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18622FE925A2AAF000EEB108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18622FEA25A2AAF000EEB108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18622FF025A2AAF100EEB108 /* LifeLiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeLiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18622FF425A2AAF100EEB108 /* LifeLiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeLiverTests.m; sourceTree = "<group>"; };
+		18622FF625A2AAF100EEB108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18622FFB25A2AAF100EEB108 /* LifeLiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeLiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18622FFF25A2AAF100EEB108 /* LifeLiverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeLiverUITests.m; sourceTree = "<group>"; };
+		1862300125A2AAF100EEB108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18622FD225A2AAEF00EEB108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18622FED25A2AAF100EEB108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18622FF825A2AAF100EEB108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18622FCC25A2AAEF00EEB108 = {
+			isa = PBXGroup;
+			children = (
+				18622FD725A2AAEF00EEB108 /* LifeLiver */,
+				18622FF325A2AAF100EEB108 /* LifeLiverTests */,
+				18622FFE25A2AAF100EEB108 /* LifeLiverUITests */,
+				18622FD625A2AAEF00EEB108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18622FD625A2AAEF00EEB108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18622FD525A2AAEF00EEB108 /* LifeLiver.app */,
+				18622FF025A2AAF100EEB108 /* LifeLiverTests.xctest */,
+				18622FFB25A2AAF100EEB108 /* LifeLiverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18622FD725A2AAEF00EEB108 /* LifeLiver */ = {
+			isa = PBXGroup;
+			children = (
+				18622FD825A2AAEF00EEB108 /* AppDelegate.h */,
+				18622FD925A2AAEF00EEB108 /* AppDelegate.m */,
+				18622FDB25A2AAEF00EEB108 /* SceneDelegate.h */,
+				18622FDC25A2AAEF00EEB108 /* SceneDelegate.m */,
+				18622FDE25A2AAEF00EEB108 /* ViewController.h */,
+				18622FDF25A2AAEF00EEB108 /* ViewController.m */,
+				18622FE125A2AAEF00EEB108 /* Main.storyboard */,
+				18622FE425A2AAF000EEB108 /* Assets.xcassets */,
+				18622FE625A2AAF000EEB108 /* LaunchScreen.storyboard */,
+				18622FE925A2AAF000EEB108 /* Info.plist */,
+				18622FEA25A2AAF000EEB108 /* main.m */,
+			);
+			path = LifeLiver;
+			sourceTree = "<group>";
+		};
+		18622FF325A2AAF100EEB108 /* LifeLiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				18622FF425A2AAF100EEB108 /* LifeLiverTests.m */,
+				18622FF625A2AAF100EEB108 /* Info.plist */,
+			);
+			path = LifeLiverTests;
+			sourceTree = "<group>";
+		};
+		18622FFE25A2AAF100EEB108 /* LifeLiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18622FFF25A2AAF100EEB108 /* LifeLiverUITests.m */,
+				1862300125A2AAF100EEB108 /* Info.plist */,
+			);
+			path = LifeLiverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18622FD425A2AAEF00EEB108 /* LifeLiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1862300425A2AAF100EEB108 /* Build configuration list for PBXNativeTarget "LifeLiver" */;
+			buildPhases = (
+				18622FD125A2AAEF00EEB108 /* Sources */,
+				18622FD225A2AAEF00EEB108 /* Frameworks */,
+				18622FD325A2AAEF00EEB108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeLiver;
+			productName = LifeLiver;
+			productReference = 18622FD525A2AAEF00EEB108 /* LifeLiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18622FEF25A2AAF100EEB108 /* LifeLiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1862300725A2AAF100EEB108 /* Build configuration list for PBXNativeTarget "LifeLiverTests" */;
+			buildPhases = (
+				18622FEC25A2AAF100EEB108 /* Sources */,
+				18622FED25A2AAF100EEB108 /* Frameworks */,
+				18622FEE25A2AAF100EEB108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18622FF225A2AAF100EEB108 /* PBXTargetDependency */,
+			);
+			name = LifeLiverTests;
+			productName = LifeLiverTests;
+			productReference = 18622FF025A2AAF100EEB108 /* LifeLiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18622FFA25A2AAF100EEB108 /* LifeLiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1862300A25A2AAF100EEB108 /* Build configuration list for PBXNativeTarget "LifeLiverUITests" */;
+			buildPhases = (
+				18622FF725A2AAF100EEB108 /* Sources */,
+				18622FF825A2AAF100EEB108 /* Frameworks */,
+				18622FF925A2AAF100EEB108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18622FFD25A2AAF100EEB108 /* PBXTargetDependency */,
+			);
+			name = LifeLiverUITests;
+			productName = LifeLiverUITests;
+			productReference = 18622FFB25A2AAF100EEB108 /* LifeLiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18622FCD25A2AAEF00EEB108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					18622FD425A2AAEF00EEB108 = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
+					18622FEF25A2AAF100EEB108 = {
+						CreatedOnToolsVersion = 12.1.1;
+						TestTargetID = 18622FD425A2AAEF00EEB108;
+					};
+					18622FFA25A2AAF100EEB108 = {
+						CreatedOnToolsVersion = 12.1.1;
+						TestTargetID = 18622FD425A2AAEF00EEB108;
+					};
+				};
+			};
+			buildConfigurationList = 18622FD025A2AAEF00EEB108 /* Build configuration list for PBXProject "LifeLiver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18622FCC25A2AAEF00EEB108;
+			productRefGroup = 18622FD625A2AAEF00EEB108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18622FD425A2AAEF00EEB108 /* LifeLiver */,
+				18622FEF25A2AAF100EEB108 /* LifeLiverTests */,
+				18622FFA25A2AAF100EEB108 /* LifeLiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18622FD325A2AAEF00EEB108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18622FE825A2AAF000EEB108 /* LaunchScreen.storyboard in Resources */,
+				18622FE525A2AAF000EEB108 /* Assets.xcassets in Resources */,
+				18622FE325A2AAEF00EEB108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18622FEE25A2AAF100EEB108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18622FF925A2AAF100EEB108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18622FD125A2AAEF00EEB108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18622FE025A2AAEF00EEB108 /* ViewController.m in Sources */,
+				18622FDA25A2AAEF00EEB108 /* AppDelegate.m in Sources */,
+				18622FEB25A2AAF000EEB108 /* main.m in Sources */,
+				18622FDD25A2AAEF00EEB108 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18622FEC25A2AAF100EEB108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18622FF525A2AAF100EEB108 /* LifeLiverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18622FF725A2AAF100EEB108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1862300025A2AAF100EEB108 /* LifeLiverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18622FF225A2AAF100EEB108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18622FD425A2AAEF00EEB108 /* LifeLiver */;
+			targetProxy = 18622FF125A2AAF100EEB108 /* PBXContainerItemProxy */;
+		};
+		18622FFD25A2AAF100EEB108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18622FD425A2AAEF00EEB108 /* LifeLiver */;
+			targetProxy = 18622FFC25A2AAF100EEB108 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18622FE125A2AAEF00EEB108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18622FE225A2AAEF00EEB108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18622FE625A2AAF000EEB108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18622FE725A2AAF000EEB108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1862300225A2AAF100EEB108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1862300325A2AAF100EEB108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1862300525A2AAF100EEB108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7386SR8HXN;
+				INFOPLIST_FILE = LifeLiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testIDForShare.sharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1862300625A2AAF100EEB108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7386SR8HXN;
+				INFOPLIST_FILE = LifeLiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.testIDForShare.sharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1862300825A2AAF100EEB108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LifeLiverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.LifeLiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeLiver.app/LifeLiver";
+			};
+			name = Debug;
+		};
+		1862300925A2AAF100EEB108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LifeLiverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.LifeLiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeLiver.app/LifeLiver";
+			};
+			name = Release;
+		};
+		1862300B25A2AAF100EEB108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LifeLiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.LifeLiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeLiver;
+			};
+			name = Debug;
+		};
+		1862300C25A2AAF100EEB108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LifeLiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.LifeLiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeLiver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18622FD025A2AAEF00EEB108 /* Build configuration list for PBXProject "LifeLiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1862300225A2AAF100EEB108 /* Debug */,
+				1862300325A2AAF100EEB108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1862300425A2AAF100EEB108 /* Build configuration list for PBXNativeTarget "LifeLiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1862300525A2AAF100EEB108 /* Debug */,
+				1862300625A2AAF100EEB108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1862300725A2AAF100EEB108 /* Build configuration list for PBXNativeTarget "LifeLiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1862300825A2AAF100EEB108 /* Debug */,
+				1862300925A2AAF100EEB108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1862300A25A2AAF100EEB108 /* Build configuration list for PBXNativeTarget "LifeLiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1862300B25A2AAF100EEB108 /* Debug */,
+				1862300C25A2AAF100EEB108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18622FCD25A2AAEF00EEB108 /* Project object */;
+}
